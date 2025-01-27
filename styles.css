@@ -472,7 +472,7 @@ input:focus{
     height: 320px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .container{
         width: 100%;
     }
@@ -508,4 +508,5 @@ input:focus{
         left: 60%;
     }
     
+}
 }
