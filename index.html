@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+</head>
+<body>
+    <div class="container">
+    <header class="header-feed">
+        <div class="header-container">
+    <i class="fa-solid fa-house fa-3x" style="color: #4e349d;" id="home"></i>
+    <h1 class="home-feed">Жива Стрічка</h1>
+        </div>
+    </header>
+
+        <div class="feed">
+            <div class="sub-feed" id="feed-one">
+                <div class="user-av" id="user-one">
+                   <img src="18b9ffb2a8a791d50213a9d595c4dd52.jpg" alt="user-avatar">
+            <textarea id="ta-one" placeholder="Що у Вас нового?" maxlength="3000"></textarea>
+        </div>
+            </div>
+            <div class="feed-menu">
+            <span class="tick-mark" style="font-size: 45px;">
+                ✔
+            </span>
+            <button class="anonim">Анонімно</button>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-solid fa-chart-simple fa-2x" style="color: #ffffff;" id="first-btn"></i>
+            <span class="text-tip">Продивитись статистику</span>
+            </div>
+            </div>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-solid fa-location-dot fa-2x" style="color: #777777;" id="second-btn"></i>
+            <span class="text-tip">Локація</span>
+            </div>
+            </div>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-solid fa-thumbtack fa-2x" style="color: #ffffff;" id="third-btn"></i>
+            <span class="text-tip">Прикріпити пост</span>
+            </div>
+            </div>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-regular fa-face-smile fa-2x" style="color: #f8f8f8;" id="fourth-btn"></i>
+            <span class="text-tip">Емодзі</span>
+            </div>
+            </div>
+            <div class="send-btn">
+            <div class="tooltip">
+            <i class="fa-regular fa-paper-plane fa-3x" style="color: #ffffff;" id="main-btn"></i>
+            <span class="text-tip">Надіслати</span>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="feed">
+            <div class="sub-feed" id="feed-two">
+                <div class="user-av" id="user-two">
+                   <img src="18b9ffb2a8a791d50213a9d595c4dd52.jpg" alt="user-avatar">
+                   <textarea id="ta-two" maxlength="3000" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."></textarea>
+            <label class="publish-label" for="post">Створення Посту</label>
+            <p id="symbol-limit"></p>
+            <div class="icon-wrap">
+            <i class="fa-solid fa-feather-pointed" ></i>
+            <input type="text" class="input-feather" id="one-input" placeholder="Lorem ipsum" maxlength="30"/>
+            </div>
+            <i class="bi bi-three-dots " style="color: #f8f8f8; cursor: pointer;"></i>
+        </div>
+            </div>
+            <div class="feed-menu">
+                <span class="tick-mark" style="font-size: 45px;">
+                    ✔
+                </span>
+            <button class="anonim">Анонімно</button>
+            <div class="btn">
+            <div class="tooltip">
+                <i class="fa-solid fa-chart-simple fa-2x" style="color: #ffffff; " id="first-btn"></i>
+                <span class="text-tip">Продивитись статистику</span>
+            </div>    
+            </div>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-solid fa-location-dot fa-2x" style="color: #777777;" id="second-btn"></i>
+            <span class="text-tip">Локація</span>
+            </div>
+            </div>
+            <div class="btn">
+            <div class="tooltip">    
+            <i class="fa-solid fa-thumbtack fa-2x" style="color: #ffffff;" id="third-btn"></i>
+            <span class="text-tip">Прикріпити пост</span>
+            </div>
+            </div>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-regular fa-face-smile fa-2x" style="color: #f8f8f8;" id="fourth-btn"></i>
+            <span class="text-tip">Емодзі</span>
+            </div>
+            </div> 
+            <div class="send-btn">
+            <div class="tooltip">
+            <i class="fa-regular fa-paper-plane fa-3x" style="color: #ffffff;" id="main-btn"></i>
+            <span class="text-tip">Надіслати</span>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="feed">
+            <div class="sub-feed" id="feed-three">
+                <div class="user-av" id="user-three">
+                   <img src="18b9ffb2a8a791d50213a9d595c4dd52.jpg" alt="user-avatar">
+                <label  class="publish-label" for="survey">Створення Опитування</label>
+                <div class="icon-wrap">
+                <i class="fa-solid fa-feather-pointed" ></i>
+            <input type="text" class="input-feather" id="two-input" placeholder="Назва" maxlength="50"/>
+            </div>   
+            <i class="bi bi-three-dots" style="color: #f8f8f8; cursor: pointer;"></i>
+        </div>
+        <div class="survey-feed">
+        <div class="option">
+            <input type="radio" name="opyt" class="radio-btn" id="btnfirst"/>
+            <input type="text" class="survey-text" id="survey-one" placeholder="Варіант відповіді" maxlength="20"/>
+            <div class="range-bar" id="range-one"></div>
+            <span class="vidsotok">0%</span>
+        </div>
+        <div class="option">
+            <input type="radio" name="opyt" class="radio-btn" id="btnsecond"/>
+            <input type="text" class="survey-text" id="survey-two" placeholder="Варіант відповіді" maxlength="20"/>
+            <div class="range-bar" id="range-two"></div>
+            <span class="vidsotok">0%</span>
+        </div>
+        <div class="add-option">
+            <button id="add-option-button">+</button>
+            <span>Додати варіант відповіді</span>
+        </div>
+        </div>
+            </div>
+            <div class="feed-menu">
+                <span class="tick-mark" style="font-size: 45px;">
+                    ✔
+                </span>
+            <button class="anonim">Анонімно</button>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-solid fa-chart-simple fa-2x" style="color: #ffffff;" id="first-btn"></i>
+            <span class="text-tip">Продивитись статистику</span>
+            </div>
+            </div>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-solid fa-location-dot fa-2x" style="color: #777777;" id="second-btn"></i>
+            <span class="text-tip">Локація</span>
+            </div>
+            </div>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-solid fa-thumbtack fa-2x" style="color: #ffffff;" id="third-btn"></i>
+            <span class="text-tip">Прикріпити пост</span>
+            </div>
+            </div>
+            <div class="btn">
+            <div class="tooltip">
+            <i class="fa-regular fa-face-smile fa-2x" style="color: #f8f8f8;" id="fourth-btn"></i>
+            <span class="text-tip">Емодзі</span>
+            </div>
+            </div>
+            <div class="send-btn">
+            <div class="tooltip">
+            <i class="fa-regular fa-paper-plane fa-3x" style="color: #ffffff;" id="main-btn"></i>
+            <span class="text-tip">Надіслати</span>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

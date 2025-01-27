@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat',sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: black;
+}
+
+.container{
+    background-color:rgb(25, 1, 43);
+    width: 80%;
+    margin: 0 auto;
+    height: calc(100% - 100px);
+    position: relative;
+    padding: 20px;
+}
+
+h1,h2,h3,p,span,textarea{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+#user-two, #user-three{
+    background-color: rgb(60, 60, 99);
+    position: relative;
+    height: 140px;
+    bottom: 110px;
+    border-radius: 5px;
+}
+
+
+#user-one {
+    position: relative;
+    bottom: 66%;
+}
+
+input{
+    height: 200px;
+    font-size: 19px;
+    border-color: transparent;
+    position: absolute;
+    bottom: 37px;
+    min-width: fit-content;
+}
+
+#ta-one {
+    background-color: transparent;
+    resize: none;
+    border: none;
+    outline: none;
+    height: 170px;
+    width: 90%;
+    font-size: 19px;
+    position: absolute;
+    top: 35%;
+}
+
+#ta-two {
+    background-color: transparent;
+    resize: none;
+    border: transparent;
+    outline: none;
+    height: 105px;
+    width: 98%;
+    font-size: 19px;
+    position: absolute;
+    top: 9rem;
+    left: 10px;
+}
+
+.survey-feed{
+    height: 12.5em;
+    width: 65em;
+    padding: 50px;
+    position: absolute;
+    bottom: 120px;
+}
+
+#survey-one {
+    background-color: rgb(13, 14, 74);
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 40px;
+    bottom: 130px;
+}
+
+#survey-two {
+    background-color: rgb(13, 14, 74);
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 40px;
+    bottom: 80px;
+}
+
+#btnfirst{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 145px;
+    left: 20px;
+}
+
+#btnsecond{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 95px;
+    left: 20px;
+}
+
+.add-option{
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 22px;
+}
+
+.add-option button{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 10px;
+    left: -6px;
+    font-size: 19px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.add-option span{
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.range-bar{
+    width: 50%;
+    height: 5px;
+    border: 0;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin-top: 5px;
+    left: 30%;
+    bottom: 20px;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0 25px 0;
+}
+
+.vidsotok {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 35px;
+    left: 85%;
+    bottom: 70px;
+}
+
+.sub-feed{
+    background-color: rgb(31, 42, 75);
+    width: 70%;
+    height: 225px;
+    margin: -5px auto;
+    padding: 80px 0 30px 0;
+    border-radius: 5px;
+}
+
+.sub-feed i {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    font-size: 30px;
+}
+
+.feed-menu{
+    background-color: rgb(60, 60, 99);
+    margin: 0 auto;
+    width: 70%;
+    padding: 5px 40px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.header-feed{
+    text-align: center;
+    margin-right: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 14%;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+label{
+    color: white;
+    width: 100px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.publish-label[for="post"]{
+    position: relative;
+    width: 200px;
+    bottom: 35%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.publish-label[for="survey"]{
+    position: relative;
+    width: 250px;
+    bottom: 35%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#home {
+    margin-bottom: 15px;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.home-feed{
+    margin-bottom: 15px;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.fa-solid, .fa-regular{
+    cursor: pointer;
+}
+
+.send-btn{
+    width: 77px;
+    height: 73px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(247,7,238,1) 0%, rgb(180, 9, 140) 20%, rgba(181,255,0,1) 100%);
+    transition: transform 0.1s ease-in-out;
+}
+
+.tick-mark{
+    height: 45px;
+    width: 45px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    margin-bottom: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#addition-mark {
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(13, 14, 74);
+    display: flex;
+    margin: 10px 5px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+#first-btn{
+    position: relative;
+    left: 8px;
+    top: 5px;
+}
+
+#second-btn{
+    position: relative;
+    left: 11px;
+    top: 8px;
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+#dot-tip-one, #dot-tip-two{
+    position: relative;
+    display: flex;
+    top: 100%;
+}
+
+.text-tip{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    background-color: rgb(13, 14, 74);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 195px;
+    position: absolute;
+    bottom: -25px;
+    transform: translateX(-50%);
+    padding: 5px;
+    text-align: center;
+    right: -60px;
+}
+
+#symbol-limit{
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.tooltip:hover .text-tip{
+    visibility:visible;
+    opacity: 1;
+}
+
+#third-btn{
+    position: relative;
+    left: 11px;
+    top: 9px;
+}
+
+#fourth-btn{
+    position: relative;
+    left: 7px;
+    top: 7px;
+}
+
+#main-btn{
+    position: relative;
+    left: 1px;
+    top: 2px;
+}
+
+.send-btn:hover{
+    transform: scale(1.1);
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.anonim:hover{
+    background-color: rgb(58, 24, 75);
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.fa-paper-plane{
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.anonim{
+    margin: 0 10px;
+    width: 90px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    left: -70px;
+}
+
+.icon-wrap i {
+    font-size: 25px;
+    position: absolute;
+    left: 295px;
+    top: 61px;
+    color: #fff;
+    z-index: 1;
+}
+
+i {
+    font-size: 25px;
+    width: 46px !important;
+    height: 46px !important;
+    position: relative;
+    right: -5px;
+}
+
+.anon-mode{
+    font-size: 15px;
+    margin: 0;
+    padding-left: 14px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 5px;
+}
+
+#one-input, #two-input{
+    background-color: rgb(13, 14, 74);
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    right: 68%;
+    top: 35%;
+}
+
+input::placeholder, textarea::placeholder{
+    color: white;
+
+}
+
+input:focus{
+    transition: 0.3s ease-in-out;
+}
+
+[type="radio"]
+
+#feed-two, #feed-three{
+    height: 320px;
+}
+
+@media (min-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    
+    .header-feed{
+        position: relative;
+        right: 120px;
+    }
+
+    .sub-feed{
+        width: 100%;
+    }
+    .feed-menu{
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .anonim{
+        position: static;
+    }
+
+    #one-input, #two-input{
+        position: absolute;
+        left: 13%;
+    }
+
+    .range-bar{
+        width: 240px;
+    }
+
+    .vidsotok{
+        position: relative;
+        left: 60%;
+    }
+    
+}
